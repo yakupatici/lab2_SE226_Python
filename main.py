@@ -3,8 +3,8 @@ words = ["a","ability","able","about","above","accept","according","account","ac
 #Question 2
 
 print("The words starts with letter e:")
-for i in words :
-    if i.startswith('e'):
+for word in words :
+    if word.startswith('e'):
         print(i)
 
 
